@@ -1,0 +1,281 @@
+<html>
+	<head>
+		<h1 color="black">This is my gallery</h1>
+		<link rel="stylesheet" type="text/css" href="style2.css">
+		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"> 
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body background="bg1.jpg">
+		<img src="b1.jpg" height="200px" width="200px" id="i1">
+		<img src="b2.jpg" height="200px" width="200px" id="i2">
+		<img src="b3.jpg" height="200px" width="200px" id="i3">
+		<img src="b4.jpg" height="200px" width="200px" id="i4">
+		<img src="b5.jpg" height="200px" width="200px" id="i5">
+		<img src="b6.jpg" height="200px" width="200px" id="i6"><br>
+		<img src="b7.jpg" height="200px" width="200px" id="i7">
+		<img src="b8.jpg" height="200px" width="200px" id="i8">
+		<img src="b9.jpg" height="200px" width="200px" id="i9">
+		<img src="b10.jpg" height="200px" width="200px" id="i10">
+		<img src="b11.jpg" height="200px" width="200px" id="i11"> 
+		<img src="b12.jpg" height="200px" width="200px" id="i12"><br>
+		<button  class="btn btn1 animated slideInLeft" onclick="change()" >Change</button>
+		<button  class="btn btn1 animated slideInRight" onclick="random()" >Random</button>
+		<script>
+			function change()
+			{
+				var e1=document.getElementById("i1");
+				e2=document.getElementById("i2");
+				e3=document.getElementById("i3");
+				e4=document.getElementById("i4");
+				e5=document.getElementById("i5");
+				e6=document.getElementById("i6");
+				e7=document.getElementById("i7");
+				e8=document.getElementById("i8");
+				e9=document.getElementById("i9");
+				e10=document.getElementById("i10");
+				e11=document.getElementById("i11");
+				e12=document.getElementById("i12");
+				if(e1.src.match("b1.jpg"))
+				{
+					e1.src="i1.jpg";
+				}
+				else
+				{
+					e1.src="b1.jpg";
+				}
+				if(e2.src.match("b2.jpg"))
+				{
+					e2.src="i2.jpg";
+				}
+				else
+				{
+					e2.src="b2.jpg";
+				}
+				if(e3.src.match("b3.jpg"))
+				{
+					e3.src="i3.jpg";
+				}
+				else
+				{
+					e3.src="b3.jpg";
+				}
+				if(e4.src.match("b4.jpg"))
+				{
+					e4.src="i4.jpg";
+				}
+				else
+				{
+					e4.src="b4.jpg";
+				}
+				if(e5.src.match("b5.jpg"))
+				{
+					e5.src="i5.jpg";
+				}
+				else
+				{
+					e5.src="b5.jpg";
+				}
+				if(e6.src.match("b6.jpg"))
+				{
+					e6.src="i6.jpg";
+				}
+				else
+				{
+					e6.src="b6.jpg";
+				}
+				if(e7.src.match("b7.jpg"))
+				{
+					e7.src="i7.jpg";
+				}
+				else
+				{
+					e7.src="b7.jpg";
+				}
+				if(e8.src.match("b8.jpg"))
+				{
+					e8.src="i8.jpg";
+				}
+				else
+				{
+					e8.src="b8.jpg";
+				}
+				if(e9.src.match("b9.jpg"))
+				{
+					e9.src="i9.jpg";
+				}
+				else
+				{
+					e9.src="b9.jpg";
+				}
+				if(e10.src.match("b10.jpg"))
+				{
+					e10.src="i10.jpg";
+				}
+				else
+				{
+					e10.src="b10.jpg";
+				}
+				if(e11.src.match("b11.jpg"))
+				{
+					e11.src="i11.jpg";
+				}
+				else
+				{
+					e11.src="b11.jpg";
+				}
+				if(e12.src.match("b12.jpg"))
+				{
+					e12.src="i12.jpg";
+				}
+				else
+				{
+					e12.src="b12.jpg";
+				}
+				
+			}
+		</script>
+		<script>
+			function random()
+			{
+			var e1=document.getElementById("i1");
+				e2=document.getElementById("i2");
+				e3=document.getElementById("i3");
+				e4=document.getElementById("i4");
+				e5=document.getElementById("i5");
+				e6=document.getElementById("i6");
+				e7=document.getElementById("i7");
+				e8=document.getElementById("i8");
+				e9=document.getElementById("i9");
+				e10=document.getElementById("i10");
+				e11=document.getElementById("i11");
+				e12=document.getElementById("i12");
+				if(e1.src.match("i1.jpg"))
+				{
+					e1.src="i7.jpg";
+				}
+			   
+			
+				if(e2.src.match("i2.jpg"))
+				{
+					e2.src="i12.jpg";
+				}
+				
+				if(e3.src.match("i3.jpg"))
+				{
+					e3.src="i6.jpg";
+				}
+				
+				if(e4.src.match("i4.jpg"))
+				{
+					e4.src="i8.jpg";
+				}
+				
+				if(e5.src.match("i5.jpg"))
+				{
+					e5.src="i10.jpg";
+				}
+				
+				if(e6.src.match("i6.jpg"))
+				{
+					e6.src="i3.jpg";
+				}
+				
+				if(e7.src.match("i7.jpg"))
+				{
+					e7.src="i11.jpg";
+				}
+				 
+				if(e8.src.match("i8.jpg"))
+				{
+					e8.src="i1.jpg";
+				}
+				 
+				if(e9.src.match("i9.jpg"))
+				{
+					e9.src="i4.jpg";
+				}
+				 
+				if(e10.src.match("i10.jpg"))
+				{
+					e10.src="i5.jpg";
+				}
+				 
+				if(e11.src.match("i11.jpg"))
+				{
+					e11.src="i2.jpg";
+				}
+				 
+				if(e12.src.match("i12.jpg"))
+				{
+					e12.src="i9.jpg";
+				}
+				/////end of first set
+				//////second set
+				if(e1.src.match("b1.jpg"))
+				{
+					e1.src="b7.jpg";
+				}
+			   
+			
+				if(e2.src.match("b2.jpg"))
+				{
+					e2.src="b12.jpg";
+				}
+				
+				if(e3.src.match("b3.jpg"))
+				{
+					e3.src="b6.jpg";
+				}
+				
+				if(e4.src.match("b4.jpg"))
+				{
+					e4.src="b8.jpg";
+				}
+				
+				if(e5.src.match("b5.jpg"))
+				{
+					e5.src="b10.jpg";
+				}
+				
+				if(e6.src.match("b6.jpg"))
+				{
+					e6.src="b3.jpg";
+				}
+				
+				if(e7.src.match("b7.jpg"))
+				{
+					e7.src="b11.jpg";
+				}
+				 
+				if(e8.src.match("b8.jpg"))
+				{
+					e8.src="b1.jpg";
+				}
+				 
+				if(e9.src.match("b9.jpg"))
+				{
+					e9.src="b4.jpg";
+				}
+				 
+				if(e10.src.match("b10.jpg"))
+				{
+					e10.src="b5.jpg";
+				}
+				 
+				if(e11.src.match("b11.jpg"))
+				{
+					e11.src="b2.jpg";
+				}
+				 
+				if(e12.src.match("b12.jpg"))
+				{
+					e12.src="b9.jpg";
+				}
+				
+			}
+		</script>
+		
+	</body>
+</html>
